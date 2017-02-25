@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyOwnCard</string>
+    <string name="alone">&#8230;alone!</string>
+    <string name="we">We are not&#8230;</string>
+</resources>

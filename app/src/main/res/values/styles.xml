@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="position">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="first_text" parent="position">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:alpha">0.6</item>
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">@dimen/sizeText</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+    </style>
+
+    <style name="gif" parent="position">
+        <item name="android:src">@drawable/sevenearth</item>
+        <item name="android:alpha">0.6</item>
+    </style>
+
+    <style name="second_text" parent="position">
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:alpha">0.6</item>
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:textSize">@dimen/sizeText</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+    </style>
+
+</resources>
