@@ -4,7 +4,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/background_dark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
@@ -30,7 +30,6 @@
     </style>
 
     <style name="gif" parent="position">
-        <item name="android:src">@drawable/sevenearth</item>
         <item name="android:alpha">0.6</item>
     </style>
 
